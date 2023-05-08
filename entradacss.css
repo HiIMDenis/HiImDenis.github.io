@@ -5,35 +5,35 @@ body {
   padding: 0;
 }
 
-.planet {
+/* Estilos de la luna */
+.moon {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   background-color: #000;
-  color: #fff;
-  text-decoration: none;
 }
 
-.planet img {
+.moon img {
   width: 200px;
   height: 200px;
   margin-bottom: 20px;
 }
 
-.planet h1 {
-  font-size: 36px;
-  margin: 0;
+/* Estilos del botón */
+.enter-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 24px;
+  transition: background-color 0.3s ease-in-out;
 }
 
-/* Efecto de hover */
-.planet:hover img {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
-}
-
-.planet:hover h1 {
-  transform: translateY(-20px);
-  transition: transform 0.3s ease-in-out;
+.enter-button:hover {
+  background-color: #000;
+  color: #fff;
 }
